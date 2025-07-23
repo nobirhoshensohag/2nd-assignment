@@ -1,0 +1,57 @@
+/* font family */
+
+.inter-font-family{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* common style  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mg-auto{
+    margin: 0 auto;
+}
+.dark5{
+    color: #8987A1;
+}
+
+/* nav section  */
+.navbar{
+    display: flex;
+    max-width: 1140px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar li{
+    list-style: none;
+}
+.navbar a{
+    text-decoration: none;
+    margin-right: 48px;
+}
+.navbar i{
+    margin-right: 10px;
+}
+.home{
+    color: #252432;
+    font-weight: 700;
+}
+#cart{
+    color: #000000;
+}
+
+
+/* small device responsive */
+@media screen and (max-width:576px) {
+    .hide{
+       visibility: hidden; 
+    }
+}
