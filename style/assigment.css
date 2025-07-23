@@ -14,15 +14,31 @@
 
 .mg-auto{
     margin: 0 auto;
+    max-width: 1140px;
+}
+.dark1{
+    color: rgba(0, 0, 0, 0.5);
 }
 .dark5{
     color: #8987A1;
+    
+}
+.orange{
+    color: #E95A08;
+}
+.btn-primary{
+    font-weight: 600px;
+    background-color: #E95A08;
+    padding: 19px 80px;
+    border: none;
+    color: #FFFFFF;
+    width: 100%;
 }
 
 /* nav section  */
 .navbar{
     display: flex;
-    max-width: 1140px;
+    /* max-width: 1140px; */
     align-items: center;
     justify-content: space-between;
     margin-top: 30px;
@@ -44,16 +60,94 @@
     color: #252432;
     font-weight: 700;
 }
-#cart{
+.cart{
     color: #000000;
 }
+
+/* banner section  */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+   
+}
+.banner-left{
+    max-width: 570px;
+    margin-top: 162px;
+    
+
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.banner-description{
+    max-width: 570px;
+    font-size: 1.3rem;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 23px;
+}
+.banner-right{
+    max-width: 570px;
+    margin-top: 106px;
+}
+img{
+    width: 100%;
+}
+
+/* plans card section  */
+.plans-card-container{
+ margin-top: 125px;
+ 
+}
+.plan-card{
+ text-align: center;
+ margin-bottom: 50px;
+ 
+}
+.plan-card-title{
+    font-size: 3.1rem;
+    font-weight: bold;
+    
+}
+.plan-card-description{
+    font-size: 1.3rem;
+    
+}
+.card{
+    max-width: 270px;
+}
+
+.card-name, .card-price{
+    color: #111111;
+    font-size: 1.3rem;
+    text-align: center;
+
+}
+.card-name{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.card-price{
+    margin-bottom: 30px;
+}
+.card-parent{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+}
+
+
 
 
 /* small device responsive */
 @media screen and (max-width:576px) {
-  .navbar .hide{
-       visibility: hidden; 
+   .navbar .hide{
+       display: none; 
     }
+    
     .banner{
         flex-direction: column-reverse;
     }
@@ -66,4 +160,5 @@
         font-weight: bolds;
         margin-bottom: 10px;
     }
-}
+    
+   }
