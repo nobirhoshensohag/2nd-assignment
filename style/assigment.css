@@ -160,5 +160,12 @@ img{
         font-weight: bolds;
         margin-bottom: 10px;
     }
+    .card-parent{
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+   }
+   .card{
+    width: 171px;
+   }
     
    }
