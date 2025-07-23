@@ -51,7 +51,19 @@
 
 /* small device responsive */
 @media screen and (max-width:576px) {
-    .hide{
+  .navbar .hide{
        visibility: hidden; 
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner-left{
+        margin: 28px 16px 0px 16px;
+        max-width: 361px;
+    }
+    .banner-title{
+        font-size: 24px;
+        font-weight: bolds;
+        margin-bottom: 10px;
     }
 }
