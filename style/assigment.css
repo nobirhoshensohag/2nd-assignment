@@ -228,6 +228,7 @@ img{
 
 .deal-card-right {
   position: relative;
+  
 }
 
 .deal-card-right-text {
@@ -268,7 +269,38 @@ img{
   width: 100%;
   border-radius: 22px;
 }
+/* join section  */
 
+.join-container {
+  margin-top: 120px;
+
+  position: relative;
+}
+.join-container-title {
+  font-size: 3.12rem;
+  color: #ffffff;
+  font-weight: bold;
+  width: 586px;
+  position: absolute;
+  top: 199px;
+  left: 660px;
+}
+.join-form {
+  /* width: 644px; */
+  height: 50px;
+  padding: 15px 540px 15px 20px;
+}
+.join-btn {
+  position: absolute;
+  width: 186px;
+  height: 50px;
+  padding: 19px 53px;
+}
+.join-container form {
+  position: absolute;
+  top: 290px;
+  left: 537px;
+}
 
 
 /* small device responsive */
@@ -315,6 +347,7 @@ img{
     height: 68px;
     margin-left: 28px;
     margin-top: 16px;
+   
     
   }
   .deal-title {
@@ -341,6 +374,27 @@ img{
   }
   .deal-card-right-text {
     font-size: 1.25rem;
+  }
+  .join-container {
+    margin-top: 44px;
+  }
+  .join-form {
+    width: 218px;
+    padding: 20px;
+  }
+  .join-btn {
+    width: 103px;
+    padding: 19px 12px;
+  }
+  .join-container form {
+    top: 70px;
+    left: 36px;
+  }
+  .join-container-title {
+    font-size: 20px;
+    width: 235px;
+    left: 79px;
+    top: 30px;
   }
     
    }
