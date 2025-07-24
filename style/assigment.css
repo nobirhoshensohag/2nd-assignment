@@ -11,6 +11,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #f5f8ff;
+}
 
 .mg-auto{
     margin: 0 auto;
@@ -20,11 +23,11 @@
     color: rgba(0, 0, 0, 0.5);
 }
 .dark5{
-    color: #8987A1;
+    color: #8987a1;
     
 }
 .orange{
-    color: #E95A08;
+    color: #e95a08;
 }
 .btn-primary{
     font-weight: 600px;
@@ -119,7 +122,8 @@ img{
     max-width: 270px;
 }
 
-.card-name, .card-price{
+.card-name,
+ .card-price{
     color: #111111;
     font-size: 1.3rem;
     text-align: center;
@@ -139,12 +143,51 @@ img{
     gap: 30px;
 }
 
+/* plant banner */
+.plant-banner {
+  margin-top: 210px;
+}
+.plant-banner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.plant-banner-left {
+  max-width: 540px;
+  position: relative;
+}
+.badge {
+  position: absolute;
+  max-width: 286px;
+  bottom: 438px;
+  left: 347px;
+}
+.plant-banner-right {
+  max-width: 540px;
+  padding-top: 60px;
+  margin-left: 60px;
+}
+.plant-banner-title {
+  font-size: 3.1rem;
+  font-weight: bold;
+  color: #000000;
+}
+.plant-banner-right ul {
+  margin-left: 10px;
+  font-size: 1.3rem;
+  padding: 30px;
+}
+.plant-banner-right li {
+  margin-bottom: 20px;
+}
+
 
 
 
 /* small device responsive */
 @media screen and (max-width:576px) {
-   .navbar .hide{
+   .navbar .hide,
+   .badge{
        display: none; 
     }
     
@@ -157,9 +200,13 @@ img{
     }
     .banner-title{
         font-size: 24px;
-        font-weight: bolds;
+        font-weight: bold;
         margin-bottom: 10px;
     }
+    .plans-card-container {
+    max-width: 362px;
+  }
+
     .card-parent{
     grid-template-columns: repeat(2,1fr);
     justify-items: center;
@@ -167,5 +214,15 @@ img{
    .card{
     width: 171px;
    }
+   .plant-banner {
+    flex-direction: column;
+    width: 361px;
+    margin-top: 41px;
+  }
+  
+  .plant-banner-right {
+    margin-left: 17px;
+  }
+  
     
    }
