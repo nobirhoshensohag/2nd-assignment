@@ -5,6 +5,7 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+
 /* common style  */
 *{
     margin: 0;
@@ -63,7 +64,7 @@ body{
     color: #252432;
     font-weight: 700;
 }
-.cart{
+#cart{
     color: #000000;
 }
 
@@ -119,7 +120,9 @@ img{
     
 }
 .card{
-    max-width: 270px;
+  width: 100%;
+  padding: 10px;
+    /* max-width: 270px; */
 }
 
 .card-name,
@@ -202,9 +205,10 @@ img{
   display: flex;
   gap: 28px;
   margin-top: 128px;
+  padding: 20px;
 }
 .deal-card-left {
-  width: 367px;
+  /* width: 367px; */
   position: relative;
 }
 
@@ -335,7 +339,7 @@ footer {
 
 /* small device responsive */
 @media screen and (max-width:576px) {
-   .navbar .hide,
+  .hide,
    .badge{
        display: none; 
     }
@@ -368,6 +372,19 @@ footer {
     width: 361px;
     margin-top: 41px;
   }
+  .plant-banner-title br{
+    display: none;
+  }
+  .plant-banner-title,
+  .plan-card-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .plan-card-description{
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 16px;
+  }
   
   .plant-banner-right {
     margin-left: 17px;
@@ -391,12 +408,12 @@ footer {
   }
   .deal-parent {
     flex-direction: column;
-    margin-left: 20px;
+    /* margin-left: 20px; */
   
   }
-  .deal-card-right img {
+  /* .deal-card-right img {
     width: 361px;
-  }
+  } */
   .deal-card-right-text {
     width: 270px;
     left: 49px;
