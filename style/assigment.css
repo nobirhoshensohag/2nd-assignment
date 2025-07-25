@@ -32,8 +32,10 @@ body{
 }
 .btn-primary{
     font-weight: 600px;
-    background-color: #E95A08;
-    padding: 19px 80px;
+    color: rgb(255, 255, 255);
+    /* background-color: #E95A08; */
+     background-color: rgb(233, 90, 8);
+    padding: 20px 50px;
     border: none;
     color: #FFFFFF;
     width: 100%;
@@ -281,13 +283,14 @@ img{
   position: relative;
 }
 .join-container-title {
-  font-size: 3.12rem;
+  font-size: 3rem;
   color: #ffffff;
   font-weight: bold;
   width: 586px;
   position: absolute;
   top: 199px;
   left: 660px;
+ 
 }
 .join-form {
   /* width: 644px; */
