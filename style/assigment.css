@@ -32,10 +32,10 @@ body{
 }
 .btn-primary{
     font-weight: 600px;
-    color: rgb(255, 255, 255);
+    /* color: rgb(255, 255, 255); */
     /* background-color: #E95A08; */
      background-color: rgb(233, 90, 8);
-    padding: 20px 50px;
+    padding: 19px 20px;
     border: none;
     color: #FFFFFF;
     width: 100%;
@@ -279,11 +279,12 @@ img{
 
 .join-container {
   margin-top: 120px;
+  
 
   position: relative;
 }
 .join-container-title {
-  font-size: 3rem;
+  font-size: 3.12rem;
   color: #ffffff;
   font-weight: bold;
   width: 586px;
@@ -295,7 +296,7 @@ img{
 .join-form {
   /* width: 644px; */
   height: 50px;
-  padding: 15px 540px 15px 20px;
+  padding: 10px 350px 10px 15px;
 }
 .join-btn {
   position: absolute;
